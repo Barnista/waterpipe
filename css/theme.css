@@ -1,0 +1,178 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+table{
+    margin: auto;
+    background: black;
+}
+
+td{
+    text-align: center;
+    /*background-color: goldenrod;*/
+    width: 64px;
+    height: 64px;
+}
+
+.border{
+    background-image: url("../res/env/Wall.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: brown;
+}
+
+.start-pipe{
+    background-color: royalblue;
+}
+
+.block{
+    zoom: 2;
+
+    display: block;
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+}
+
+.house{
+    
+}
+
+.wall{
+    background-color: black;
+}
+
+.pipe-img {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .prop-img {
+    position: relative;
+    z-index: 1;
+    top: -12px;
+    left: 12px;
+  }
+
+  .grass{
+    background-image: url("../res/env/BG.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  .collapse{
+      visibility: collapse;
+  }
+
+  #score-board{
+      background-color: whitesmoke;
+      border-radius: 10px;
+      width: 60%;
+      margin: auto;
+      margin-top: 48px;
+  }
+
+  .black-font{
+    color: rgb(41, 41, 41);
+  }
+
+  .star{
+      width: 100px;
+      height: 100px;
+      padding: 12px;
+      margin-top: 10px;
+  }
+
+  .end-box{
+      padding: 8px;
+      padding-bottom: 24px;
+  }
+
+  .little-close{
+    color: rgb(99, 99, 99);
+      margin-top: -10px;
+  }
+
+  button{
+      margin-top: 16px; 
+      margin-bottom: 24px; 
+      margin-left: 8px;
+      margin-right: 8px;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 16px;
+      color: white;
+      background-color: blueviolet;
+      border-radius: 6px;
+  }
+
+  .path{
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+  }
+
+  .playable{
+    cursor: pointer;
+  }
+
+  .neon-standby{
+    border-radius: 6px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: transparent;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+  }
+
+  .neon-light{
+      border-radius: 6px;
+      border: 3px solid deepskyblue;
+      background-color: transparent;
+      margin: auto;
+      width: 30%;
+      padding: 10px;
+  }
+
+  .table-layout{
+      width: 640px;
+  }
+
+  .board-layout{
+      width: 80px;
+  }
+
+  .button-layout{
+    width: 30%;
+}
+
+.input-layout{
+    width: 30%;
+    text-align: right;
+}
+
+input { 
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center; 
+}
+
+footer{
+    margin-top: 64px;
+}
+
+div{
+    margin: auto;
+}
+
+.gray-font{
+    color: gray;
+}

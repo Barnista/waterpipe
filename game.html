@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Water Pipe</title>
+
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+</head>
+<body>
+    <div id="game-board">
+
+        <table class="table-layout">
+            <tr>
+                <td class="board-layout">
+                    <h2>WATER PIPE</h2>
+                    <h3>PIPES: <span id="pipe-count">0</span> &nbsp;|&nbsp;    SCORE: 
+                            <span id="score-count">0</span></h3>
+                </td>
+                <td class="input-layout">
+                    <p><label>ROWS: <input id="input-row" type="text" size="6" value="8" class="black-font"></label></p>
+                    <p><label>COLUMNS: <input id="input-col" type="text" size="6" value="8" class="black-font"></label></p>
+                </td>
+                <td class="button-layout">
+                    <button id="gen-button" class="">GEN MAP</button>
+                </td>
+            </tr>
+        </table>
+        <center>
+           
+                <!--<button id="gen-button" class="">GEN MAP</button> -->
+        </center>
+    
+    <table id="game-table">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    </div>
+
+    <div id="score-board" class="">
+        <center>
+            <span>
+                <img class="star" src="res/str/star-dim.png">
+                <img class="star" src="res/str/star-dim.png">
+                <img class="star" src="res/str/star-dim.png">
+            </span>
+            <h2 class="black-font"><span class="black-font">SCORES: </span><span id="score-count-board" class="black-font">0</span></h2>
+            <h3 class="little-close"><span class="little-close">-----</span></h3>
+            <h2 id="admire-lab" class="black-font">---</h2>
+            <span class="end-box">
+                <button id="retry-button" class="">RETRY</button>
+                <button id="new-button" class="">NEW GAME</button>
+            </span>
+        </center>
+        
+    </div>
+    
+    <script src="js/object-init.js"></script>
+    <script src="js/pipe.js"></script>
+    <script src="js/assistant.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/soundsystem.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
